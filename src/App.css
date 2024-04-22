@@ -21,7 +21,7 @@ html {
   border-bottom: 2px solid;
   border-image-slice: 1;
   border-bottom-width: 3px;
-  border-image-source: linear-gradient(to left, #0c3691, #babfba);
+  border-image-source: linear-gradient(to left, #000000, #FFFFFF);
 }
 
 .navigation {
@@ -33,7 +33,7 @@ html {
   margin: 0;
   align-items: center;
   height: 66px;
-  background: linear-gradient(90deg, #0c1606, #b4c599);
+  background: linear-gradient(90deg, #0A162C, #FFFFFF);
   color: white;
   text-shadow: #fd26a1 1px 0 10px;
   -webkit-text-stroke: 0.5px mediumvioletred;
