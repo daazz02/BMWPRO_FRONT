@@ -38,6 +38,9 @@ html {
   text-shadow: #fd26a1 1px 0 10px;
   -webkit-text-stroke: 0.5px mediumvioletred;
   cursor: pointer;
+  position: fixed;
+  top: 0;
+  /*padding-top: 60px;*/
 }
 
 .bmwNav {
@@ -46,6 +49,21 @@ html {
 
 .banner {
   width: 100%;
-  height: calc(100% - 69px);
+  height: 100%;
   object-fit: cover;
 }
+
+.figure{
+  background: url("src/assets/bmw-m-logo-and-colors.jpg") center center;
+  background-size: cover;
+  width: 1440px;
+  height: 156px;
+}
+.baanner2{
+  background: url("src/assets/majestic-feline-looks-into-the-camera-eyes-generated-by-ai.jpg") center center;
+  background-size: cover;
+  width: 1440px;
+  height: 800px;
+}
+
+
