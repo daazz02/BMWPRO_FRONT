@@ -66,6 +66,45 @@ html {
   height: 800px;
 }
 
+.cards {
+  display: flex;
+  /* Автоматически заполняем на всю ширину grid-контейнера */
+  grid-template-columns: repeat(auto-fill, 225px);
+  width: 100%;
+  max-width: 1400px; /* Ширина grid-контейнера */
+  column-gap: 100px; /* Отступ между колонками */
+  row-gap: 100px; /* Отступ между рядами */
+  margin: 0 auto;
+  align-items: flex-end;
+  justify-content: center; /* Центрируем карточку по горизонтали */
+  height: 100vh;
+  position: relative;
+}
+
+
+
+.card__bottom {
+  display: flex;
+  flex-direction: column;
+  flex: auto; /* Занимаем всю оставшуюся высоту карточки */
+  padding: 35px;
+}
+
+
+.card__add {
+  display: block;
+  width: 100%;
+  font-weight: 400;
+  font-size: 17px;
+  color: #000000;
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #000000;
+  border-radius: 30px;
+  cursor: pointer; /* Меняем курсор при наведении */
+  transition: 0.2s;
+  margin-top: auto; /* Прижимаем кнопку к низу карточки */
+}
 
 .carde {
   width: 250px;
@@ -250,42 +289,21 @@ html {
   transform: scale(1.1);
 }
 
-
-
-.card__bottom {
-  display: flex;
-  flex-direction: column;
-  flex: auto; /* Занимаем всю оставшуюся высоту карточки */
-  padding: 35px;
-}
-
-
-.card__add {
-  display: block;
+.video-container{
+  background-size: cover;
   width: 100%;
-  font-weight: 400;
-  font-size: 17px;
-  color: #000000;
-  padding: 10px;
-  text-align: center;
-  border: 1px solid #000000;
-  border-radius: 30px;
-  cursor: pointer; /* Меняем курсор при наведении */
-  transition: 0.2s;
-  margin-top: auto; /* Прижимаем кнопку к низу карточки */
-}
-
-
-.cards {
-  display: flex;
-  /* Автоматически заполняем на всю ширину grid-контейнера */
-  grid-template-columns: repeat(auto-fill, 225px);
-  width: 100%;
-  max-width: 1400px; /* Ширина grid-контейнера */
-  column-gap: 100px; /* Отступ между колонками */
-  row-gap: 100px; /* Отступ между рядами */
+  max-width: 900px;
   margin: 0 auto;
-  align-items: flex-end;
+  display: flex;
   justify-content: center; /* Центрируем карточку по горизонтали */
+  align-items: flex-end; /* Размещаем карточку внизу контейнера */
   height: 100vh;
 }
+.baanner3{
+  background: url("src/assets/1473672773598783118.jpeg") center center;
+  background-size: cover;
+  width: 1440px;
+  height: 800px;
+
+}
+
