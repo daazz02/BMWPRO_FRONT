@@ -66,15 +66,226 @@ html {
   height: 800px;
 }
 
-.giffca{
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: rgba(0, 0, 0, 0.5);
-  display: block;
-  min-width: 110vw;
-  min-height: 100vh;
-  object-fit: contain;
+
+.carde {
+  width: 250px;
+  background-color: #1D63A2;
+  height: 250px;
+  box-shadow: 1px 2px 4px rgb(18, 46, 96);
+  display: flex;
+  flex-direction: column; /* Размещаем элементы в колонку */
+  border-radius: 60px;
+  transition: 0.2s;
+  position: relative;
+  margin-top: auto;
 }
 
+.card {
+  width: 250px;
+  background-color: #ffffff;
+  height: 250px;
+  box-shadow: 1px 2px 4px rgb(143, 143, 143);
+  display: flex;
+  flex-direction: column; /* Размещаем элементы в колонку */
+  border-radius: 60px;
+  transition: 0.2s;
+  position: relative;
+  margin-top: auto;
+}
+
+.cardd {
+  width: 250px;
+  background-color: #013976;
+  height: 250px;
+  box-shadow: 1px 2px 4px rgb(6, 26, 69);
+  display: flex;
+  flex-direction: column; /* Размещаем элементы в колонку */
+  border-radius: 60px;
+  transition: 0.2s;
+  position: relative;
+  margin-top: auto;
+}
+
+.cardy {
+  width: 250px;
+  background-color: #E6230F;
+  height: 250px;
+  box-shadow: 1px 2px 4px rgb(41, 0, 2);
+  display: flex;
+  flex-direction: column; /* Размещаем элементы в колонку */
+  border-radius: 60px;
+  transition: 0.2s;
+  position: relative;
+  margin-top: auto;
+}
+/* При наведении на карточку - меняем цвет тени */
+.card:hover {
+  box-shadow: 4px 8px 16px rgb(248, 0, 0);
+}
+.cardy:hover {
+  box-shadow: 4px 8px 16px rgb(255, 255, 255);
+}
+.cardd:hover {
+  box-shadow: 4px 8px 16px rgb(85, 85, 255);
+}
+.carde:hover {
+  box-shadow: 4px 8px 16px rgb(4, 217, 255);
+}
+
+.card__top {
+  flex: 0 0 150px; /* Задаем высоту 220px, запрещаем расширение и сужение по высоте */
+  position: relative;
+  overflow: hidden; /* Скрываем, что выходит за пределы */
+}
+
+/* Контейнер для картинки */
+.card__image {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.card__image > img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain; /* Встраиваем картинку в контейнер card__image */
+  transition: 0.2s;
+}
+
+.card__imagee {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.card__imagee > img{
+  justify-content: center; /* Центрируем карточку по горизонтали */
+  margin-left: 20px;
+  width: 200px;
+  height: 200px;
+  object-fit: contain; /* Встраиваем картинку в контейнер card__image */
+  transition: 0.2s;
+}
+
+.card__imagees {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.card__imagees > img{
+  justify-content: center; /* Центрируем карточку по горизонтали */
+  margin-left: 20px;
+  width: 200px;
+  height: 200px;
+  object-fit: contain; /* Встраиваем картинку в контейнер card__image */
+  transition: 0.2s;
+}
+
+.card__imagess {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.card__imagess > img{
+  justify-content: center; /* Центрируем карточку по горизонтали */
+  margin-left: 20px;
+  width: 200px;
+  height: 200px;
+  object-fit: contain; /* Встраиваем картинку в контейнер card__image */
+  transition: 0.2s;
+}
+
+.card__imagen {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.card__imagen > img{
+  justify-content: center; /* Центрируем карточку по горизонтали */
+  margin-left: 40px;
+  width: 155px;
+  height: 155px;
+  object-fit: contain; /* Встраиваем картинку в контейнер card__image */
+  transition: 0.2s;
+}
+
+/* При наведении - увеличиваем картинку */
+.card__imagen:hover > img {
+  transform: scale(1.1);
+}
+
+/* При наведении - увеличиваем картинку */
+.card__imagess:hover > img {
+  transform: scale(1.1);
+}
+
+/* При наведении - увеличиваем картинку */
+.card__imagees:hover > img {
+  transform: scale(1.1);
+}
+
+/* При наведении - увеличиваем картинку */
+.card__image:hover > img {
+  transform: scale(1.1);
+}
+.card__imagee:hover > img {
+  transform: scale(1.1);
+}
+
+
+
+.card__bottom {
+  display: flex;
+  flex-direction: column;
+  flex: auto; /* Занимаем всю оставшуюся высоту карточки */
+  padding: 35px;
+}
+
+
+.card__add {
+  display: block;
+  width: 100%;
+  font-weight: 400;
+  font-size: 17px;
+  color: #000000;
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #000000;
+  border-radius: 30px;
+  cursor: pointer; /* Меняем курсор при наведении */
+  transition: 0.2s;
+  margin-top: auto; /* Прижимаем кнопку к низу карточки */
+}
+
+
+.cards {
+  display: flex;
+  /* Автоматически заполняем на всю ширину grid-контейнера */
+  grid-template-columns: repeat(auto-fill, 225px);
+  width: 100%;
+  max-width: 1400px; /* Ширина grid-контейнера */
+  column-gap: 100px; /* Отступ между колонками */
+  row-gap: 100px; /* Отступ между рядами */
+  margin: 0 auto;
+  align-items: flex-end;
+  justify-content: center; /* Центрируем карточку по горизонтали */
+  height: 100vh;
+}
