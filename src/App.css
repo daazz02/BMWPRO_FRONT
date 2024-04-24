@@ -300,10 +300,51 @@ html {
   height: 100vh;
 }
 .baanner3{
-  background: url("src/assets/1473672773598783118.jpeg") center center;
+  background: url("src/assets/149086-audi-bmw-rulevoe_koleso-lichnyj_roskoshnyj_avtomobil-rychag-3840x2160.jpg") center center;
   background-size: cover;
   width: 1440px;
   height: 800px;
 
 }
 
+.baanner4{
+  background: url("src/assets/img2.akspic.ru-koshachih-ogon-plamya-bakenbardy-teplo-2912x1632.png") center center;
+  background-size: cover;
+  width: 1440px;
+  height: 800px;
+}
+.dop{
+  background-size: cover;
+  width: 100%;
+  /*margin: 0 auto;*/
+  display: flex;
+  margin-left: 20px;
+  /*justify-content: center; !* Центрируем карточку по горизонтали *!*/
+  align-items: flex-end; /* Размещаем карточку внизу контейнера */
+  height: 100vh;
+  color: #000000;
+  font-size: 50px; /* Устанавливаем размер текста в 16 пикселей */
+  cursor: pointer; /* Меняем курсор при наведении */
+  transition: 0.2s;
+  text-align: center;
+  font-weight: 400;
+  line-height: 1;
+  /*text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #f80000, 0 0 82px #ff073a, 0 0 92px #ff073a, 0 0 102px #f09, 0 0 151px #f09;*/
+  /*filter: hue-rotate(100deg);*/
+  margin-bottom: 50px; /* Отступ снизу контейнера */
+
+
+}
+p::after {
+  content: "\A"; /* Принудительный перенос строки */
+  white-space: pre; /* Устанавливаем пробельные символы */
+  margin-bottom: 50px; /* Отступ снизу контейнера */
+
+}
+
+.baanner5{
+  background: url("src/assets/bmw_rul_logotip_110564_3840x2160.jpeg") center center;
+  background-size: cover;
+  width: 1440px;
+  height: 800px;
+}
