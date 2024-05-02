@@ -35,8 +35,8 @@ html {
   height: 66px;
   background: linear-gradient(90deg, #0A162C, #FFFFFF);
   color: white;
-  text-shadow: #fd26a1 1px 0 10px;
-  -webkit-text-stroke: 0.5px mediumvioletred;
+  text-shadow: #ff0000 1px 0 10px;
+  -webkit-text-stroke: 0.5px #c71515;
   cursor: pointer;
   position: fixed;
   top: 0;
@@ -68,6 +68,7 @@ html {
 
 .cards {
   display: flex;
+  position: relative;
   /* Автоматически заполняем на всю ширину grid-контейнера */
   grid-template-columns: repeat(auto-fill, 225px);
   width: 100%;
@@ -78,7 +79,6 @@ html {
   align-items: flex-end;
   justify-content: center; /* Центрируем карточку по горизонтали */
   height: 100vh;
-  position: relative;
 }
 
 
@@ -322,16 +322,19 @@ html {
   /*justify-content: center; !* Центрируем карточку по горизонтали *!*/
   align-items: flex-end; /* Размещаем карточку внизу контейнера */
   height: 100vh;
-  color: #000000;
-  font-size: 50px; /* Устанавливаем размер текста в 16 пикселей */
+  color: #ffa343;
+  /*background-color: red;*/
+  font-size: 45px; /* Устанавливаем размер текста в 16 пикселей */
   cursor: pointer; /* Меняем курсор при наведении */
   transition: 0.2s;
   text-align: center;
   font-weight: 400;
   line-height: 1;
-  /*text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #f80000, 0 0 82px #ff073a, 0 0 92px #ff073a, 0 0 102px #f09, 0 0 151px #f09;*/
+  /*text-shadow: 0 0 7px #000000, 0 0 10px #000000, 0 0 21px #000000, 0 0 42px #f80000, 0 0 82px #ff073a, 0 0 92px #ff073a, 0 0 102px #f09, 0 0 151px #f09;*/
   /*filter: hue-rotate(100deg);*/
   margin-bottom: 50px; /* Отступ снизу контейнера */
+  text-shadow: #ff0000 1px 0 10px;
+  -webkit-text-stroke: 0.5px #000000;
 
 
 }
@@ -348,3 +351,21 @@ p::after {
   width: 1440px;
   height: 800px;
 }
+.ban5{
+  color: #ffffff;
+  font-size: 27px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center; /* Центрируем карточку по горизонтали */
+  align-items: flex-end; /* Размещаем карточку внизу контейнера */
+  height: 100vh;
+  text-decoration: underline; /* Подчеркивание ссылки */
+
+}
+
+.ban5:hover {
+  color: #0b348a; /* Цвет ссылки при наведении */
+  cursor: pointer; /* Меняем курсор при наведении */
+  transition: 0.2s;
+}
+
