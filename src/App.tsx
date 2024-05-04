@@ -1,4 +1,3 @@
-import "./App.css";
 
 import bmwImg from "./assets/4k-bmw-m4-f82-drift-bmw-m.jpg";
 import bmwNav from "./assets/sticker.webp";

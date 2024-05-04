@@ -25,6 +25,7 @@ html {
 }
 
 .navigation {
+  z-index: 100;
   list-style: none;
   display: flex;
   width: 100%;
