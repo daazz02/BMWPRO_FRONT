@@ -21,7 +21,7 @@ html {
   border-bottom: 2px solid;
   border-image-slice: 1;
   border-bottom-width: 3px;
-  border-image-source: linear-gradient(to left, #000000, #FFFFFF);
+  border-image-source: linear-gradient(to left, #000000, #ffffff);
 }
 
 .navigation {
@@ -34,7 +34,7 @@ html {
   margin: 0;
   align-items: center;
   height: 66px;
-  background: linear-gradient(90deg, #0A162C, #FFFFFF);
+  background: linear-gradient(90deg, #0a162c, #ffffff);
   color: white;
   text-shadow: #ff0000 1px 0 10px;
   -webkit-text-stroke: 0.5px #c71515;
@@ -54,14 +54,15 @@ html {
   object-fit: cover;
 }
 
-.figure{
+.figure {
   background: url("src/assets/bmw-m-logo-and-colors.jpg") center center;
   background-size: cover;
   width: 1440px;
   height: 156px;
 }
-.baanner2{
-  background: url("src/assets/majestic-feline-looks-into-the-camera-eyes-generated-by-ai.jpg") center center;
+.baanner2 {
+  background: url("src/assets/majestic-feline-looks-into-the-camera-eyes-generated-by-ai.jpg")
+    center center;
   background-size: cover;
   width: 1440px;
   height: 800px;
@@ -82,15 +83,12 @@ html {
   height: 100vh;
 }
 
-
-
 .card__bottom {
   display: flex;
   flex-direction: column;
   flex: auto; /* Занимаем всю оставшуюся высоту карточки */
   padding: 35px;
 }
-
 
 .card__add {
   display: block;
@@ -107,22 +105,9 @@ html {
   margin-top: auto; /* Прижимаем кнопку к низу карточки */
 }
 
-.carde {
-  width: 250px;
-  background-color: #1D63A2;
-  height: 250px;
-  box-shadow: 1px 2px 4px rgb(18, 46, 96);
-  display: flex;
-  flex-direction: column; /* Размещаем элементы в колонку */
-  border-radius: 60px;
-  transition: 0.2s;
-  position: relative;
-  margin-top: auto;
-}
-
 .card {
   width: 250px;
-  background-color: #ffffff;
+  background-color: #ccc;
   height: 250px;
   box-shadow: 1px 2px 4px rgb(143, 143, 143);
   display: flex;
@@ -133,43 +118,38 @@ html {
   margin-top: auto;
 }
 
-.cardd {
-  width: 250px;
-  background-color: #013976;
-  height: 250px;
-  box-shadow: 1px 2px 4px rgb(6, 26, 69);
-  display: flex;
-  flex-direction: column; /* Размещаем элементы в колонку */
-  border-radius: 60px;
-  transition: 0.2s;
-  position: relative;
-  margin-top: auto;
+.card__gray {
+  background-color: #ccc;
+  box-shadow: 1px 2px 4px rgb(143, 143, 143);
 }
 
-.cardy {
-  width: 250px;
-  background-color: #E6230F;
-  height: 250px;
+.card__red {
+  background-color: #e6230f;
   box-shadow: 1px 2px 4px rgb(41, 0, 2);
-  display: flex;
-  flex-direction: column; /* Размещаем элементы в колонку */
-  border-radius: 60px;
-  transition: 0.2s;
-  position: relative;
-  margin-top: auto;
 }
+
+.card__blue {
+  background-color: #1d63a2;
+  box-shadow: 1px 2px 4px rgb(18, 46, 96);
+}
+
+.card__dark-blue {
+  background-color: #013976;
+  box-shadow: 1px 2px 4px rgb(6, 26, 69);
+}
+
 /* При наведении на карточку - меняем цвет тени */
-.card:hover {
-  box-shadow: 4px 8px 16px rgb(248, 0, 0);
+.card__gray:hover {
+  box-shadow: 0 0px 16px 8px rgb(248, 0, 0);
 }
-.cardy:hover {
-  box-shadow: 4px 8px 16px rgb(255, 255, 255);
+.card__red:hover {
+  box-shadow: 0 0px 16px 8px rgb(255, 255, 255);
 }
-.cardd:hover {
-  box-shadow: 4px 8px 16px rgb(85, 85, 255);
+.card__dark-blue:hover {
+  box-shadow: 0 0px 16px 8px rgb(85, 85, 255);
 }
-.carde:hover {
-  box-shadow: 4px 8px 16px rgb(4, 217, 255);
+.card__blue:hover {
+  box-shadow: 0 0px 16px 8px rgb(4, 217, 255);
 }
 
 .card__top {
@@ -204,7 +184,7 @@ html {
   height: 100%;
 }
 
-.card__imagee > img{
+.card__imagee > img {
   justify-content: center; /* Центрируем карточку по горизонтали */
   margin-left: 20px;
   width: 200px;
@@ -222,7 +202,7 @@ html {
   height: 100%;
 }
 
-.card__imagees > img{
+.card__imagees > img {
   justify-content: center; /* Центрируем карточку по горизонтали */
   margin-left: 20px;
   width: 200px;
@@ -240,7 +220,7 @@ html {
   height: 100%;
 }
 
-.card__imagess > img{
+.card__imagess > img {
   justify-content: center; /* Центрируем карточку по горизонтали */
   margin-left: 20px;
   width: 200px;
@@ -258,7 +238,7 @@ html {
   height: 100%;
 }
 
-.card__imagen > img{
+.card__imagen > img {
   justify-content: center; /* Центрируем карточку по горизонтали */
   margin-left: 40px;
   width: 155px;
@@ -290,7 +270,7 @@ html {
   transform: scale(1.1);
 }
 
-.video-container{
+.video-container {
   background-size: cover;
   width: 100%;
   max-width: 900px;
@@ -300,21 +280,22 @@ html {
   align-items: flex-end; /* Размещаем карточку внизу контейнера */
   height: 100vh;
 }
-.baanner3{
-  background: url("src/assets/149086-audi-bmw-rulevoe_koleso-lichnyj_roskoshnyj_avtomobil-rychag-3840x2160.jpg") center center;
-  background-size: cover;
-  width: 1440px;
-  height: 800px;
-
-}
-
-.baanner4{
-  background: url("src/assets/img2.akspic.ru-koshachih-ogon-plamya-bakenbardy-teplo-2912x1632.png") center center;
+.baanner3 {
+  background: url("src/assets/149086-audi-bmw-rulevoe_koleso-lichnyj_roskoshnyj_avtomobil-rychag-3840x2160.jpg")
+    center center;
   background-size: cover;
   width: 1440px;
   height: 800px;
 }
-.dop{
+
+.baanner4 {
+  background: url("src/assets/img2.akspic.ru-koshachih-ogon-plamya-bakenbardy-teplo-2912x1632.png")
+    center center;
+  background-size: cover;
+  width: 1440px;
+  height: 800px;
+}
+.dop {
   background-size: cover;
   width: 100%;
   /*margin: 0 auto;*/
@@ -336,23 +317,20 @@ html {
   margin-bottom: 50px; /* Отступ снизу контейнера */
   text-shadow: #ff0000 1px 0 10px;
   -webkit-text-stroke: 0.5px #000000;
-
-
 }
 p::after {
   content: "\A"; /* Принудительный перенос строки */
   white-space: pre; /* Устанавливаем пробельные символы */
   margin-bottom: 50px; /* Отступ снизу контейнера */
-
 }
 
-.baanner5{
+.baanner5 {
   background: url("src/assets/bmw_rul_logotip_110564_3840x2160.jpeg") center center;
   background-size: cover;
   width: 1440px;
   height: 800px;
 }
-.ban5{
+.ban5 {
   color: #ffffff;
   font-size: 27px;
   margin: 0 auto;
@@ -361,7 +339,6 @@ p::after {
   align-items: flex-end; /* Размещаем карточку внизу контейнера */
   height: 100vh;
   text-decoration: underline; /* Подчеркивание ссылки */
-
 }
 
 .ban5:hover {
@@ -369,4 +346,3 @@ p::after {
   cursor: pointer; /* Меняем курсор при наведении */
   transition: 0.2s;
 }
-
