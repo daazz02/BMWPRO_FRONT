@@ -5,8 +5,10 @@ import bmwl from "./assets/like.png";
 import bmwm from "./assets/man.png";
 import bmws from "./assets/spa.png";
 import bmwt from "./assets/tele.png";
+import { Link, useNavigate } from "react-router-dom";
 
 function App() {
+  const navigate = useNavigate();
   return (
     <div>
       <div className="navigationWrapper">
@@ -90,7 +92,9 @@ function App() {
             {/* Нижняя часть */}
             <div className="card__bottom">
               {/* Кнопка добавить в корзину */}
-              <button className="card__add">motorbike</button>
+              <button className="card__add" onClick={() => navigate("motorbike")}>
+                motorbike
+              </button>
             </div>
           </div>
         </div>

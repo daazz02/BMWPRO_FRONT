@@ -4,11 +4,16 @@ import "./App.css";
 
 import App from "./App.tsx";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
+import Motorbike from "./pages/Motorbike";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <App />,
+  },
+  {
+    path: "/motorbike",
+    element: <Motorbike />,
   },
 ]);
 
