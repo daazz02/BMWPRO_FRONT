@@ -1,19 +1,26 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./App.css";
+import "./index.css";
 
-import App from "./App.tsx";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
+import App from "./App.tsx";
 import Motorbike from "./pages/Motorbike";
+import Layout from "./components/Layout.tsx";
 
 const router = createBrowserRouter([
   {
-    path: "/",
-    element: <App />,
-  },
-  {
-    path: "/motorbike",
-    element: <Motorbike />,
+    element: <Layout />,
+    children: [
+      {
+        path: "/",
+        element: <App />,
+      },
+      {
+        path: "/motorbike",
+        element: <Motorbike />,
+      },
+    ],
   },
 ]);
 

@@ -1,5 +1,5 @@
 function Motorbike() {
-  return <div>Motorbike</div>;
+  return <div className="mt-20">Motorbike</div>;
 }
 
 export default Motorbike;
