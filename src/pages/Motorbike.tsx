@@ -5,7 +5,7 @@ function Motorbike() {
   return (
     <div className="bg-[url(/src/assets/motorbike-background.jpeg)] bg-no-repeat bg-cover bg-center bg-fixed">
       <div className="mt-[63px]">
-        <div className="flex gap-5 flex-wrap justify-center">
+        <div className="flex gap-5 flex-wrap justify-around">
           {Array.from({ length: 10 }).map((_, index) => (
             <Fragment key={index}>
               <DetailedCard />
