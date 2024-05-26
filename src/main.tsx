@@ -7,6 +7,7 @@ import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import App from "./App.tsx";
 import Motorbike from "./pages/Motorbike";
 import Layout from "./components/Layout.tsx";
+import Sports from "./pages/Sports.tsx";
 
 const router = createBrowserRouter([
   {
@@ -20,6 +21,10 @@ const router = createBrowserRouter([
         path: "/motorbike",
         element: <Motorbike />,
       },
+      {
+        path: "/sports",
+        element: <Sports/>
+      }
     ],
   },
 ]);

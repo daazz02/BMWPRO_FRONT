@@ -51,7 +51,7 @@ function App() {
             {/* Нижняя часть */}
             <div className="card__bottom">
               {/* Кнопка добавить в корзину */}
-              <button className="card__add">sports</button>
+              <button className="card__add" onClick={() => navigate("sports")}>sports</button>
             </div>
           </div>
           <div className="card card__gray">
@@ -77,11 +77,11 @@ function App() {
             </video>
           </div>
         </div>
-        <div className="baanner4">
-          <div className="dop">
-            <p>THE HOUR OF DREAMS WILL COME</p>
-          </div>
-        </div>
+        {/*<div className="baanner4">*/}
+        {/*  <div className="dop">*/}
+        {/*    <p>THE HOUR OF DREAMS WILL COME</p>*/}
+        {/*  </div>*/}
+        {/*</div>*/}
         <div className="figure" />
         <div className="baanner5">
           <p className="ban5">
