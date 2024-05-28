@@ -23,9 +23,7 @@ function App() {
             {/* Нижняя часть */}
             <div className="card__bottom">
               {/* Кнопка добавить в корзину */}
-              <a href="average.html">
                 <button className="card__add" onClick={() => navigate("average")}>average</button>
-              </a>
             </div>
           </div>
           <div className="card card__dark-blue">
