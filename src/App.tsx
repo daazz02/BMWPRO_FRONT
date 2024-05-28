@@ -24,7 +24,7 @@ function App() {
             <div className="card__bottom">
               {/* Кнопка добавить в корзину */}
               <a href="average.html">
-                <button className="card__add">average</button>
+                <button className="card__add" onClick={() => navigate("average")}>average</button>
               </a>
             </div>
           </div>
@@ -38,7 +38,7 @@ function App() {
             {/* Нижняя часть */}
             <div className="card__bottom">
               {/* Кнопка добавить в корзину */}
-              <button className="card__add">business</button>
+              <button className="card__add" onClick={() => navigate("business")}>business</button>
             </div>
           </div>
           <div className="card card__red">

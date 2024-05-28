@@ -8,6 +8,8 @@ import App from "./App.tsx";
 import Motorbike from "./pages/Motorbike";
 import Layout from "./components/Layout.tsx";
 import Sports from "./pages/Sports.tsx";
+import Business from "./pages/Business.tsx";
+import Average from "./pages/Average.tsx";
 
 const router = createBrowserRouter([
   {
@@ -24,7 +26,15 @@ const router = createBrowserRouter([
       {
         path: "/sports",
         element: <Sports/>
-      }
+      },
+      {
+        path: "/business",
+        element: <Business/>
+      },
+      {
+        path: "/average",
+        element: <Average/>
+      },
     ],
   },
 ]);

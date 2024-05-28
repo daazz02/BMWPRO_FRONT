@@ -3,7 +3,7 @@ import DetailedCard from "../components/DetailedCard";
 
 function Motorbike() {
   return (
-    <div className="bg-[url(/src/assets/motorbike-background.jpeg)] bg-no-repeat bg-cover bg-center bg-fixed">
+    <div className="bg-[url(/src/assets/motobanne.jpg)] bg-no-repeat bg-cover bg-center bg-fixed">
       <div className="mt-[63px]">
         <div className="flex gap-5 flex-wrap justify-around">
           {Array.from({ length: 10 }).map((_, index) => (
@@ -19,8 +19,4 @@ function Motorbike() {
 
 export default Motorbike;
 
-// background-image: url(/src/assets/motorbike-background.jpeg);
-// background-repeat: no-repeat;
-// background-size: cover;
-// background-position: center;
-// background-attachment: fixed;
+//motorbike-background.jpeg
