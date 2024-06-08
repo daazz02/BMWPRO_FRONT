@@ -5,11 +5,12 @@ import "./index.css";
 
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import App from "./App.tsx";
-import Motorbike from "./pages/Motorbike";
 import Layout from "./components/Layout.tsx";
-import Sports from "./pages/Sports.tsx";
-import Business from "./pages/Business.tsx";
 import Average from "./pages/Average.tsx";
+import Business from "./pages/Business.tsx";
+import Motorbike from "./pages/Motorbike";
+import Sports from "./pages/Sports.tsx";
+import Support from "./pages/Support.tsx";
 
 const router = createBrowserRouter([
   {
@@ -25,15 +26,19 @@ const router = createBrowserRouter([
       },
       {
         path: "/sports",
-        element: <Sports/>
+        element: <Sports />,
       },
       {
         path: "/business",
-        element: <Business/>
+        element: <Business />,
       },
       {
         path: "/average",
-        element: <Average/>
+        element: <Average />,
+      },
+      {
+        path: "/support",
+        element: <Support />,
       },
     ],
   },

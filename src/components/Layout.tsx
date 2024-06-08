@@ -8,18 +8,42 @@ import bmwu from "../assets/user.png";
 
 const Layout = () => {
   const navigation = useNavigate();
+
+  const handleNavigateToHome = () => {
+    navigation("/");
+    requestAnimationFrame(() => {
+      window.scrollTo({
+        top: 0,
+        behavior: "smooth",
+      });
+    });
+  };
+
+  const handleNavigateToContacts = () => {
+    navigation("/");
+    requestAnimationFrame(() => {
+      window.scrollTo({
+        top: document.body.scrollHeight,
+        behavior: "smooth",
+      });
+    });
+  };
+
+  const handleNavigateToSupport = () => {
+    navigation("/support");
+  };
   return (
     <header>
       <nav className="nav">
         <ul className="navigation">
           <li className="bmwNav">
-            <img src={bmwNav} alt="bmw" width={40} onClick={() => navigation("/")} />
+            <img src={bmwNav} alt="bmw" width={40} onClick={handleNavigateToHome} />
           </li>
-          <li className="bmwt">
+          <li className="bmwt" onClick={handleNavigateToContacts}>
             <img src={bmwt} alt="bmw" width={27} />
           </li>
           <li className="bmws">
-            <img src={bmws} alt="bmw" width={27} />
+            <img src={bmws} alt="bmw" width={27} onClick={handleNavigateToSupport} />
           </li>
           <li className="bmwm">
             <img src={bmwm} alt="bmw" width={27} />
