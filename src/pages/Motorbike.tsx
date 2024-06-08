@@ -89,7 +89,7 @@ const MotorbikeItems: DetailedCardData[] = [
 
 function Motorbike() {
   return (
-    <div className="bg-[url(/src/assets/motobanne.jpg)] bg-no-repeat bg-cover bg-center bg-fixed">
+    <div className="bg-[url(/src/assets/motorbike-background.jpeg)] bg-no-repeat bg-cover bg-center bg-fixed">
       <div className="mt-[63px] pt-3">
         <div className="flex gap-5 flex-wrap justify-around mt-10">
           {MotorbikeItems.map((motorbikeItem, index) => (
