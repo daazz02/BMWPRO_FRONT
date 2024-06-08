@@ -8,6 +8,7 @@ import App from "./App.tsx";
 import Layout from "./components/Layout.tsx";
 import Average from "./pages/Average.tsx";
 import Business from "./pages/Business.tsx";
+import Login from "./pages/Login.tsx";
 import Motorbike from "./pages/Motorbike";
 import Sports from "./pages/Sports.tsx";
 import Support from "./pages/Support.tsx";
@@ -39,6 +40,10 @@ const router = createBrowserRouter([
       {
         path: "/support",
         element: <Support />,
+      },
+      {
+        path: "/login",
+        element: <Login />,
       },
     ],
   },

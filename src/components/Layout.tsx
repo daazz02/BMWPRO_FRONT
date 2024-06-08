@@ -29,9 +29,6 @@ const Layout = () => {
     });
   };
 
-  const handleNavigateToSupport = () => {
-    navigation("/support");
-  };
   return (
     <header>
       <nav className="nav">
@@ -43,7 +40,7 @@ const Layout = () => {
             <img src={bmwt} alt="bmw" width={27} />
           </li>
           <li className="bmws">
-            <img src={bmws} alt="bmw" width={27} onClick={handleNavigateToSupport} />
+            <img src={bmws} alt="bmw" width={27} onClick={() => navigation("/support")} />
           </li>
           <li className="bmwm">
             <img src={bmwm} alt="bmw" width={27} />
@@ -51,7 +48,7 @@ const Layout = () => {
           <li className="bmwl">
             <img src={bmwl} alt="bmw" width={27} />
           </li>
-          <li className="bmwu">
+          <li className="bmwu" onClick={() => navigation("/login")}>
             <img src={bmwu} alt="bmw" width={25} />
           </li>
         </ul>
