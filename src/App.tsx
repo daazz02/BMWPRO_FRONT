@@ -20,53 +20,79 @@ function App() {
             <div className="card__top">
               {/* Изображение-ссылка товара */}
               <a href="#" className="card__imagee">
-                <img src="./src/assets/sticker%203.webp" />
+                <img src="./src/assets/sticker%203.webp"/>
               </a>
             </div>
             {/* Нижняя часть */}
             <div className="card__bottom">
-              {/* Кнопка добавить в корзину */}
-                <button className="card__add" onClick={() => navigate("average")}>average</button>
+              <button
+                  className="card__add text-white w-[190px] h-[50px] rounded-full"
+                  style={{
+                    background: "linear-gradient(90deg, #090f30, #000000, #190631)"
+                  }}
+                  onClick={() => navigate("average")}
+              >
+                average
+              </button>
             </div>
           </div>
           <div className="card card__dark-blue">
             <div className="card__top">
               {/* Изображение-ссылка товара */}
               <a href="#" className="card__imagees">
-                <img src="./src/assets/sticker%202.webp" alt="" />
+                <img src="./src/assets/sticker%202.webp" alt=""/>
               </a>
             </div>
             {/* Нижняя часть */}
             <div className="card__bottom">
-              {/* Кнопка добавить в корзину */}
-              <button className="card__add" onClick={() => navigate("business")}>business</button>
+              <button
+                  className="card__add text-white w-[190px] h-[50px] rounded-full"
+                  style={{
+                    background: "linear-gradient(90deg, #090f30, #000000, #190631)"
+                  }}
+                  onClick={() => navigate("business")}
+              >
+                average
+              </button>
             </div>
           </div>
           <div className="card card__red">
             <div className="card__top">
               {/* Изображение-ссылка товара */}
               <a href="#" className="card__imagess">
-                <img src="./src/assets/sticker%204.webp" alt="" />
+                <img src="./src/assets/sticker%204.webp" alt=""/>
               </a>
             </div>
             {/* Нижняя часть */}
             <div className="card__bottom">
-              {/* Кнопка добавить в корзину */}
-              <button className="card__add" onClick={() => navigate("sports")}>sports</button>
+              <button
+                  className="card__add text-white w-[190px] h-[50px] rounded-full"
+                  style={{
+                    background: "linear-gradient(90deg, #090f30, #000000, #190631)"
+                  }}
+                  onClick={() => navigate("sports")}
+              >
+                average
+              </button>
             </div>
           </div>
           <div className="card card__gray">
             <div className="card__top">
               {/* Изображение-ссылка товара */}
               <a href="#" className="card__imagen">
-                <img src="./src/assets/sticker%205.webp" alt="" />
+                <img src="./src/assets/sticker%205.webp" alt=""/>
               </a>
             </div>
             {/* Нижняя часть */}
             <div className="card__bottom">
-              {/* Кнопка добавить в корзину */}
-              <button className="card__add" onClick={() => navigate("motorbike")}>
-                motorbike
+              <button
+                  className="card__add text-white w-[190px] h-[50px] rounded-full"
+                  style={{
+                    background: "linear-gradient(90deg, #090f30, #000000, #190631)"
+                  }}
+                  onClick={() => navigate("motorbike")}
+              >
+                average
               </button>
             </div>
           </div>
@@ -74,7 +100,7 @@ function App() {
         <div className="baanner3">
           <div className="video-container">
             <video controls loop preload="auto">
-              <source src="src/assets/gif2.mp4" type="video/mp4" />
+              <source src="src/assets/gif2.mp4" type="video/mp4"/>
             </video>
           </div>
         </div>
