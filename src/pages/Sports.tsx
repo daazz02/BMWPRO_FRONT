@@ -2,11 +2,20 @@ import { Fragment } from "react/jsx-runtime";
 import DetailedCard from "../components/DetailedCard";
 import { DetailedCardData } from "../types/common";
 
+import sports1 from "../assets/bmw_image/image_sports/BMW M2.webp";
+import sports2 from "../assets/bmw_image/image_sports/BMW X3 M.webp";
+import sports3 from "../assets/bmw_image/image_sports/BMW X4 M.webp";
+import sports4 from "../assets/bmw_image/image_sports/BMW M4.webp";
+import sports5 from "../assets/bmw_image/image_sports/BMW X6 M.webp";
+import sports6 from "../assets/bmw_image/image_sports/BMW M8 COUPE.webp";
+import sports7 from "../assets/bmw_image/image_sports/BMW M8 Gran Cou.webp";
+
+
 const sportsItems: DetailedCardData[] = [
   {
     id: 0,
-    name: "Sports 1",
-    img: "https://via.placeholder.com/150",
+    name: "BMW M2 Competition",
+    img: sports1,
     rentDaily: 100,
     rentWeekly: 500,
     rentMonthly: 2000,
@@ -14,8 +23,8 @@ const sportsItems: DetailedCardData[] = [
   },
   {
     id: 1,
-    name: "Sports 2",
-    img: "https://via.placeholder.com/150",
+    name: "BMW X3 M Competition",
+    img: sports2,
     rentDaily: 100,
     rentWeekly: 500,
     rentMonthly: 2000,
@@ -23,8 +32,8 @@ const sportsItems: DetailedCardData[] = [
   },
   {
     id: 2,
-    name: "Sports 3",
-    img: "https://via.placeholder.com/150",
+    name: "BMW X4 M Competition",
+    img: sports3,
     rentDaily: 100,
     rentWeekly: 500,
     rentMonthly: 2000,
@@ -32,26 +41,8 @@ const sportsItems: DetailedCardData[] = [
   },
   {
     id: 3,
-    name: "Sports 4",
-    img: "https://via.placeholder.com/150",
-    rentDaily: 100,
-    rentWeekly: 500,
-    rentMonthly: 2000,
-    rentYearly: 24000,
-  },
-  {
-    id: 4,
-    name: "Sports 5",
-    img: "https://via.placeholder.com/150",
-    rentDaily: 100,
-    rentWeekly: 500,
-    rentMonthly: 2000,
-    rentYearly: 24000,
-  },
-  {
-    id: 5,
-    name: "Sports 6",
-    img: "https://via.placeholder.com/150",
+    name: "BMW M4 Competition",
+    img: sports4,
     rentDaily: 100,
     rentWeekly: 500,
     rentMonthly: 2000,
@@ -59,81 +50,28 @@ const sportsItems: DetailedCardData[] = [
   },
 
   {
+    id: 4,
+    name: "BMW X6 M.",
+    img: sports5,
+    rentDaily: 100,
+    rentWeekly: 500,
+    rentMonthly: 2000,
+    rentYearly: 24000,
+  },
+
+  {
+    id: 5,
+    name: "BMW M8 COUPE",
+    img: sports6,
+    rentDaily: 100,
+    rentWeekly: 500,
+    rentMonthly: 2000,
+    rentYearly: 24000,
+  },
+  {
     id: 6,
-    name: "Sports 7",
-    img: "https://via.placeholder.com/150",
-    rentDaily: 100,
-    rentWeekly: 500,
-    rentMonthly: 2000,
-    rentYearly: 24000,
-  },
-  {
-    id: 7,
-    name: "Sports 8",
-    img: "https://via.placeholder.com/150",
-    rentDaily: 100,
-    rentWeekly: 500,
-    rentMonthly: 2000,
-    rentYearly: 24000,
-  },
-  {
-    id: 8,
-    name: "Sports 9",
-    img: "https://via.placeholder.com/150",
-    rentDaily: 100,
-    rentWeekly: 500,
-    rentMonthly: 2000,
-    rentYearly: 24000,
-  },
-  {
-    id: 9,
-    name: "Sports 10",
-    img: "https://via.placeholder.com/150",
-    rentDaily: 100,
-    rentWeekly: 500,
-    rentMonthly: 2000,
-    rentYearly: 24000,
-  },
-  {
-    id: 10,
-    name: "Sports 11",
-    img: "https://via.placeholder.com/150",
-    rentDaily: 100,
-    rentWeekly: 500,
-    rentMonthly: 2000,
-    rentYearly: 24000,
-  },
-  {
-    id: 11,
-    name: "Sports 12",
-    img: "https://via.placeholder.com/150",
-    rentDaily: 100,
-    rentWeekly: 500,
-    rentMonthly: 2000,
-    rentYearly: 24000,
-  },
-  {
-    id: 12,
-    name: "Sports 13",
-    img: "https://via.placeholder.com/150",
-    rentDaily: 100,
-    rentWeekly: 500,
-    rentMonthly: 2000,
-    rentYearly: 24000,
-  },
-  {
-    id: 13,
-    name: "Sports 14",
-    img: "https://via.placeholder.com/150",
-    rentDaily: 100,
-    rentWeekly: 500,
-    rentMonthly: 2000,
-    rentYearly: 24000,
-  },
-  {
-    id: 14,
-    name: "Sports 15",
-    img: "https://via.placeholder.com/150",
+    name: "BMW M8 Gran Coupe",
+    img: sports7,
     rentDaily: 100,
     rentWeekly: 500,
     rentMonthly: 2000,

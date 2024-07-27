@@ -1,14 +1,14 @@
 import { Fragment } from "react/jsx-runtime";
-import motorbikeImg1 from "../assets/motorbike/image_motorbike/motorbike-1.webp";
-import motorbikeImg2 from "../assets/motorbike/image_motorbike/motorbike-2.webp";
-import motorbikeImg3 from "../assets/motorbike/image_motorbike/motorbike-3.webp";
-import motorbikeImg4 from "../assets/motorbike/image_motorbike/motorbike-4.webp";
-import motorbikeImg5 from "../assets/motorbike/image_motorbike/motorbike-5.webp";
-import motorbikeImg6 from "../assets/motorbike/image_motorbike/motorbike-6.webp";
-import motorbikeImg7 from "../assets/motorbike/image_motorbike/motorbike-7.webp";
-import motorbikeImg8 from "../assets/motorbike/image_motorbike/motorbike-8.webp";
-import motorbikeImg9 from "../assets/motorbike/image_motorbike/motorbike-9.webp";
-import motorbikeImg10 from "../assets/motorbike/image_motorbike/motorbike-10.webp";
+import motorbikeImg1 from "../assets/bmw_image/image_motorbike/motorbike-1.webp";
+import motorbikeImg2 from "../assets/bmw_image/image_motorbike/motorbike-2.webp";
+import motorbikeImg3 from "../assets/bmw_image/image_motorbike/motorbike-3.webp";
+import motorbikeImg4 from "../assets/bmw_image/image_motorbike/motorbike-4.webp";
+import motorbikeImg5 from "../assets/bmw_image/image_motorbike/motorbike-5.webp";
+import motorbikeImg6 from "../assets/bmw_image/image_motorbike/motorbike-6.webp";
+import motorbikeImg7 from "../assets/bmw_image/image_motorbike/motorbike-7.webp";
+import motorbikeImg8 from "../assets/bmw_image/image_motorbike/motorbike-8.webp";
+import motorbikeImg9 from "../assets/bmw_image/image_motorbike/motorbike-9.webp";
+import motorbikeImg10 from "../assets/bmw_image/image_motorbike/motorbike-10.webp";
 
 
 import DetailedCard from "../components/DetailedCard";

@@ -26,7 +26,7 @@ const DetailedCard: React.FC<Props> = ({ index, data }) => {
           <img
               src={data.img}
               alt={data.name}
-              className="w-[150px] h-[150px] object-contain shadow-lg"
+              className="w-[180px] h-[180px] object-contain shadow-lg"
           />
         </div>
         <div
