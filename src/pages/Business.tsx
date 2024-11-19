@@ -2,11 +2,19 @@ import { Fragment } from "react/jsx-runtime";
 import DetailedCard from "../components/DetailedCard";
 import { DetailedCardData } from "../types/common";
 
+import Business1 from "../assets/bmw_image/image_bisn/BMW_7.webp";
+import Business2 from "../assets/bmw_image/image_bisn/BMW_i7.webp";
+import Business3 from "../assets/bmw_image/image_bisn/BMW_i8.webp";
+import Business4 from "../assets/bmw_image/image_bisn/BMW_m5.webp";
+import Business5 from "../assets/bmw_image/image_bisn/BMW_i5.webp";
+import Business6 from "../assets/bmw_image/image_bisn/BMW_m3.webp";
+import Business7 from "../assets/bmw_image/image_bisn/BMW_3.webp";
+
 const businessItems: DetailedCardData[] = [
   {
     id: 0,
-    name: "Business 1",
-    img: "https://via.placeholder.com/150",
+    name: "BMW 7",
+    img: Business1,
     rentDaily: 100,
     rentWeekly: 500,
     rentMonthly: 2000,
@@ -14,8 +22,8 @@ const businessItems: DetailedCardData[] = [
   },
   {
     id: 1,
-    name: "Business 2",
-    img: "https://via.placeholder.com/150",
+    name: "BMW i7",
+    img: Business2,
     rentDaily: 100,
     rentWeekly: 500,
     rentMonthly: 2000,
@@ -23,8 +31,8 @@ const businessItems: DetailedCardData[] = [
   },
   {
     id: 2,
-    name: "Business 3",
-    img: "https://via.placeholder.com/150",
+    name: "BMW i8",
+    img: Business3,
     rentDaily: 100,
     rentWeekly: 500,
     rentMonthly: 2000,
@@ -32,8 +40,8 @@ const businessItems: DetailedCardData[] = [
   },
   {
     id: 3,
-    name: "Business 4",
-    img: "https://via.placeholder.com/150",
+    name: "BMW m5",
+    img: Business4,
     rentDaily: 100,
     rentWeekly: 500,
     rentMonthly: 2000,
@@ -41,8 +49,8 @@ const businessItems: DetailedCardData[] = [
   },
   {
     id: 4,
-    name: "Business 5",
-    img: "https://via.placeholder.com/150",
+    name: "BMW i5",
+    img: Business5,
     rentDaily: 100,
     rentWeekly: 500,
     rentMonthly: 2000,
@@ -50,8 +58,8 @@ const businessItems: DetailedCardData[] = [
   },
   {
     id: 5,
-    name: "Business 6",
-    img: "https://via.placeholder.com/150",
+    name: "BMW m3",
+    img: Business6,
     rentDaily: 100,
     rentWeekly: 500,
     rentMonthly: 2000,
@@ -60,35 +68,8 @@ const businessItems: DetailedCardData[] = [
 
   {
     id: 6,
-    name: "Business 7",
-    img: "https://via.placeholder.com/150",
-    rentDaily: 100,
-    rentWeekly: 500,
-    rentMonthly: 2000,
-    rentYearly: 24000,
-  },
-  {
-    id: 7,
-    name: "Business 8",
-    img: "https://via.placeholder.com/150",
-    rentDaily: 100,
-    rentWeekly: 500,
-    rentMonthly: 2000,
-    rentYearly: 24000,
-  },
-  {
-    id: 8,
-    name: "Business 9",
-    img: "https://via.placeholder.com/150",
-    rentDaily: 100,
-    rentWeekly: 500,
-    rentMonthly: 2000,
-    rentYearly: 24000,
-  },
-  {
-    id: 9,
-    name: "Business 10",
-    img: "https://via.placeholder.com/150",
+    name: "BMW 3",
+    img: Business7,
     rentDaily: 100,
     rentWeekly: 500,
     rentMonthly: 2000,

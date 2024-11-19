@@ -346,3 +346,12 @@ p::after {
   cursor: pointer; /* Меняем курсор при наведении */
   transition: 0.2s;
 }
+
+.textmbw1{
+  margin-bottom: 10px;
+  color: white;
+  box-shadow: 0 0px 16px 8px rgb(85, 85, 255);
+  display: flex;
+  place-items: center end;
+
+}
