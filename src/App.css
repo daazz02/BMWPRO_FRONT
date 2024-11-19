@@ -347,11 +347,15 @@ p::after {
   transition: 0.2s;
 }
 
-.textmbw1{
-  margin-bottom: 10px;
-  color: white;
-  box-shadow: 0 0px 16px 8px rgb(85, 85, 255);
-  display: flex;
-  place-items: center end;
-
+.baanner6 {
+  background: url("src/assets/История BMW.png") center center;
+  background-size: cover;
+  width: 1440px;
+  height: 800px;
+}
+.baanner7 {
+  background: url("src/assets/История_BMW2.png") center center;
+  background-size: cover;
+  width: 1440px;
+  height: 800px;
 }

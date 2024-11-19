@@ -89,17 +89,19 @@ function App() {
               </video>
             </div>
           </div>
-          <div className="figure" />
+          <div className="figure"/>
           <div className="baanner5">
             <p className="ban5">
               <a href="mailto:darykrv@example.com" target="_blank">
                 darykrv@gmail.com
               </a>
-              <p className="textmbw1">В 1951 году BMW выпустила свой первый послевоенный автомобиль — 501..<br/>
-                Первым массовым автомобилем стала BMW Isetta, производство которой началось в 1955 году;<br/>
-                идея создания миниатюрной машины принадлежала итальянской компании Iso,
-                а созданный ей прототип кузова был куплен немцами.</p>
             </p>
+          </div>
+          <div className="figure"/>
+          <div className="baanner6">
+          </div>
+          <div className="figure"/>
+          <div className="baanner7">
           </div>
         </div>
       </div>
