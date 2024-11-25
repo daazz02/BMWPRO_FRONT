@@ -21,11 +21,11 @@ const Login: React.FC = () => {
         headers: {
           "Content-Type": "application/json",
         },
-        body: JSON.stringify({ password }), // если нужно отправить и email, добавьте его в объект
+        body: JSON.stringify({ email, password }), // Добавляем email для отправки
       });
 
       if (response.ok) {
-        const data = await response.text(); // изменено на response.text(), так как ваш метод savePassword возвращает строку
+        const data = await response.text();
         console.log("Response from server:", data);
       } else {
         console.error("Error:", response.statusText);
@@ -36,12 +36,16 @@ const Login: React.FC = () => {
   };
 
   return (
-      <div className="flex items-center justify-center h-screen">
-        <div className="w-96">
-          <h1 className="text-center text-4xl font-bold mb-4">Login</h1>
+      <div className="relative min-h-screen flex items-center justify-center bg-gray-900">
+
+        <div className="absolute inset-0 bg-[url('/src/assets/Login_ban.png')] bg-no-repeat bg-cover bg-center z-0"></div>
+
+
+        <div className="relative z-10 w-96 bg-white p-8 rounded-md shadow-lg">
+          <h1 className="text-center text-4xl font-bold mb-4 text-gray-800">Login</h1>
           <form onSubmit={handleSubmit}>
             <div className="mb-4">
-              <label htmlFor="email">Email:</label>
+              <label htmlFor="email" className="block text-gray-700 font-medium">Email:</label>
               <input
                   type="email"
                   id="email"
@@ -51,7 +55,7 @@ const Login: React.FC = () => {
               />
             </div>
             <div className="mb-4">
-              <label htmlFor="password">Password:</label>
+              <label htmlFor="password" className="block text-gray-700 font-medium">Password:</label>
               <input
                   type="password"
                   id="password"
@@ -60,7 +64,10 @@ const Login: React.FC = () => {
                   className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
               />
             </div>
-            <button type="submit" className="w-full bg-blue-500 text-white py-2 px-4 rounded">
+            <button
+                type="submit"
+                className="w-full bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600 transition duration-300"
+            >
               Login
             </button>
           </form>

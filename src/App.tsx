@@ -5,8 +5,8 @@ function App() {
   const navigate = useNavigate();
   return (
       <div>
-        <img src={bmwImg} alt="bmw" className="banner" />
-        <div className="figure" />
+        <img src={bmwImg} alt="bmw" className="banner"/>
+        <div className="figure"/>
         <div className="baanner2">
           <div className="cards">
             <div className="card card__blue">
@@ -105,6 +105,7 @@ function App() {
           </div>
         </div>
       </div>
+
   )
       ;
 }

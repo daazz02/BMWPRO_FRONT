@@ -348,13 +348,13 @@ p::after {
 }
 
 .baanner6 {
-  background: url("src/assets/История BMW.png") center center;
+  background: url("src/assets/banner6.png") center center;
   background-size: cover;
   width: 1440px;
   height: 800px;
 }
 .baanner7 {
-  background: url("src/assets/История_BMW2.png") center center;
+  background: url("src/assets/banner7.png") center center;
   background-size: cover;
   width: 1440px;
   height: 800px;

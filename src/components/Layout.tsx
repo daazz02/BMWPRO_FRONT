@@ -34,26 +34,26 @@ const Layout = () => {
       <nav className="nav">
         <ul className="navigation">
           <li className="bmwNav">
-            <img src={bmwNav} alt="bmw" width={40} onClick={handleNavigateToHome} />
+            <img src={bmwNav} alt="bmw" width={40} onClick={handleNavigateToHome}/>
           </li>
           <li className="bmwt" onClick={handleNavigateToContacts}>
-            <img src={bmwt} alt="bmw" width={27} />
+            <img src={bmwt} alt="bmw" width={27}/>
           </li>
           <li className="bmws">
-            <img src={bmws} alt="bmw" width={27} onClick={() => navigation("/support")} />
+            <img src={bmws} alt="bmw" width={27} onClick={() => navigation("/support")}/>
           </li>
           <li className="bmwm">
-            <img src={bmwm} alt="bmw" width={27} />
+            <img src={bmwm} alt="bmw" width={27}/>
           </li>
           <li className="bmwl">
-            <img src={bmwl} alt="bmw" width={27} />
+            <img src={bmwl} alt="bmw" width={27}/>
           </li>
           <li className="bmwu" onClick={() => navigation("/login")}>
-            <img src={bmwu} alt="bmw" width={25} />
+            <img src={bmwu} alt="bmw" width={25}/>
           </li>
         </ul>
       </nav>
-      <Outlet />
+      <Outlet/>
     </header>
   );
 };
