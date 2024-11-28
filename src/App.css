@@ -65,7 +65,7 @@ html {
     center center;
   background-size: cover;
   width: 1440px;
-  height: 800px;
+  height: 900px;
 }
 
 .cards {
@@ -277,8 +277,10 @@ html {
   margin: 0 auto;
   display: flex;
   justify-content: center; /* Центрируем карточку по горизонтали */
-  align-items: flex-end; /* Размещаем карточку внизу контейнера */
   height: 100vh;
+  align-items: center;
+
+
 }
 .baanner3 {
   background: url("src/assets/149086-audi-bmw-rulevoe_koleso-lichnyj_roskoshnyj_avtomobil-rychag-3840x2160.jpg")
@@ -331,12 +333,12 @@ p::after {
   height: 800px;
 }
 .ban5 {
+  align-items: center;
   color: #ffffff;
   font-size: 27px;
   margin: 0 auto;
   display: flex;
-  justify-content: center; /* Центрируем карточку по горизонтали */
-  align-items: flex-end; /* Размещаем карточку внизу контейнера */
+  justify-content: center;
   height: 100vh;
   text-decoration: underline; /* Подчеркивание ссылки */
 }

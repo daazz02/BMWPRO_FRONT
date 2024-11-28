@@ -12,6 +12,9 @@ import Login from "./pages/Login.tsx";
 import Motorbike from "./pages/Motorbike";
 import Sports from "./pages/Sports.tsx";
 import Support from "./pages/Support.tsx";
+import Backet from "./pages/Backet.tsx";
+import Like from "./pages/Like.tsx";
+
 
 const router = createBrowserRouter([
   {
@@ -44,6 +47,14 @@ const router = createBrowserRouter([
       {
         path: "/login",
         element: <Login />,
+      },
+      {
+        path: "/backet",
+        element: <Backet />,
+      },
+      {
+        path: "/like",
+        element: <Like />,
       },
     ],
   },

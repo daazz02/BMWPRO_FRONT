@@ -90,7 +90,7 @@ function App() {
             </div>
           </div>
           <div className="figure"/>
-          <div className="baanner5">
+          <div className="baanner5" id="contacts">
             <p className="ban5">
               <a href="mailto:darykrv@example.com" target="_blank">
                 darykrv@gmail.com
