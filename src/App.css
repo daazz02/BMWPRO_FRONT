@@ -283,7 +283,7 @@ html {
 
 }
 .baanner3 {
-  background: url("src/assets/149086-audi-bmw-rulevoe_koleso-lichnyj_roskoshnyj_avtomobil-rychag-3840x2160.jpg")
+  background: url("src/assets/balckfon.jpg")
     center center;
   background-size: cover;
   width: 1440px;
@@ -291,7 +291,7 @@ html {
 }
 
 .baanner4 {
-  background: url("src/assets/img2.akspic.ru-koshachih-ogon-plamya-bakenbardy-teplo-2912x1632.png")
+  background: url("src/assets/balckfon.jpg")
     center center;
   background-size: cover;
   width: 1440px;
@@ -327,7 +327,7 @@ p::after {
 }
 
 .baanner5 {
-  background: url("src/assets/bmw_rul_logotip_110564_3840x2160.jpeg") center center;
+  background: url("src/assets/balckfon.jpg") center center;
   background-size: cover;
   width: 1440px;
   height: 800px;
@@ -350,7 +350,7 @@ p::after {
 }
 
 .baanner6 {
-  background: url("src/assets/banner6.png") center center;
+  background: url("src/assets/balckfon.jpg") center center;
   background-size: cover;
   width: 1440px;
   height: 800px;

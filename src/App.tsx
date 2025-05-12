@@ -23,7 +23,7 @@ function App() {
                     }}
                     onClick={() => navigate("average")}
                 >
-                  average
+                  exclusive
                 </button>
               </div>
             </div>
